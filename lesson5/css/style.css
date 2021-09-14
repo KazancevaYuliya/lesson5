@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #4a99d3;
+    
+    
+    
+}
+
+.container {
+    max-width: 1000px;
+    margin: 100px auto 0;
+    padding: 50px 70px;
+    background: rgba(33, 63, 100, 0.5);
+    position: relative;
+}
+
+h1,
+h2,
+p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.bird {
+    width: 19%;
+}
+
+.twitter,
+.facebook,
+.vimeo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+}
+
+.twitter {
+    background: #4ec3fe;
+    top: 1px;
+    left: -60px;
+}
+
+.twitter:hover {
+    background: #227199;
+}
+
+.facebook {
+    background: #83a5e1;
+    top: 60px;
+    left: -60px;
+}
+
+.vimeo {
+    background: #586878;
+    top: 120px;
+    left: -60px;
+}
+
+.sky {
+    position: absolute;
+    background-position: right;
+    top: -50px;
+    right: -100px;
+   
+}
+
+.bg {
+    margin: 100px auto 0;
+    padding: 50px 70px;
+    position: absolute;
+    z-index: -1;
+    background-position: left;
+    top: -60px;
+    left: -120px;
+
+}
+.bg1 {
+    margin: 250px auto 0;
+    padding: 100px 150px;
+    position: absolute;
+    z-index: -1;
+    background-position: right;
+    top: -100px;
+    right: -200px;
+    
+}
+
+.grass {
+    position: fixed;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* не знаю что я делаю не так, но уже всё перепробывала. Картинка не становится на всю ширину.
+     Помогите пожалуйста разобраться. */
+
+    
+    
+   
+    
+}
+
+
+
+
